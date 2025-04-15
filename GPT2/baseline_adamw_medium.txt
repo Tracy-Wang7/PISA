@@ -1,0 +1,393 @@
+device cuda:1
+['RecipeId', 'name', 'ingredients', 'instructions']
+data shape (1000, 4)
+% documents > 180 tokens: 20.4%
+Average document length: 133
+  900 training samples
+  100 validation samples
+The accumulation_steps_per_update is:  [14, 14, 14, 15]
+Number of tokens: 50260
+The length of trainloader is: 57
+
+======== Epoch 1 / 80 ========
+Training...
+Epoch 1, Update count 1. Current_lr: 3e-05
+Epoch 1, Update count 2. Current_lr: 6e-05
+Epoch 1, Update count 3. Current_lr: 8.999999999999999e-05
+Epoch 1, Update count 4. Current_lr: 0.00012
+  Average training loss: 34.67
+
+======== Epoch 2 / 80 ========
+Training...
+Epoch 2, Update count 1. Current_lr: 0.00015000000000000001
+Epoch 2, Update count 2. Current_lr: 0.00017999999999999998
+Epoch 2, Update count 3. Current_lr: 0.00021000000000000004
+Epoch 2, Update count 4. Current_lr: 0.00024
+  Average training loss: 4.45
+################################
+Finsh saving models
+
+======== Epoch 3 / 80 ========
+Training...
+Epoch 3, Update count 1. Current_lr: 0.00027
+Epoch 3, Update count 2. Current_lr: 0.00030000000000000003
+Epoch 3, Update count 3. Current_lr: 0.00033
+Epoch 3, Update count 4. Current_lr: 0.00035999999999999997
+  Average training loss: 3.71
+
+======== Epoch 4 / 80 ========
+Training...
+Epoch 4, Update count 1. Current_lr: 0.00039000000000000005
+Epoch 4, Update count 2. Current_lr: 0.00042000000000000007
+Epoch 4, Update count 3. Current_lr: 0.00045
+Epoch 4, Update count 4. Current_lr: 0.00048
+  Average training loss: 3.11
+
+======== Epoch 5 / 80 ========
+Training...
+Epoch 5, Update count 1. Current_lr: 0.00051
+Epoch 5, Update count 2. Current_lr: 0.00054
+Epoch 5, Update count 3. Current_lr: 0.00057
+Epoch 5, Update count 4. Current_lr: 0.0006000000000000001
+  Average training loss: 2.84
+################################
+Finsh saving models
+
+======== Epoch 6 / 80 ========
+Training...
+Epoch 6, Update count 1. Current_lr: 0.00063
+Epoch 6, Update count 2. Current_lr: 0.00066
+Epoch 6, Update count 3. Current_lr: 0.0006900000000000001
+Epoch 6, Update count 4. Current_lr: 0.0007199999999999999
+  Average training loss: 2.63
+
+======== Epoch 7 / 80 ========
+Training...
+Epoch 7, Update count 1. Current_lr: 0.00075
+Epoch 7, Update count 2. Current_lr: 0.0007800000000000001
+Epoch 7, Update count 3. Current_lr: 0.0008100000000000001
+Epoch 7, Update count 4. Current_lr: 0.0008400000000000001
+  Average training loss: 2.45
+
+======== Epoch 8 / 80 ========
+Training...
+Epoch 8, Update count 1. Current_lr: 0.00087
+Epoch 8, Update count 2. Current_lr: 0.0009
+Epoch 8, Update count 3. Current_lr: 0.00093
+Epoch 8, Update count 4. Current_lr: 0.00096
+  Average training loss: 2.32
+
+======== Epoch 9 / 80 ========
+Training...
+Epoch 9, Update count 1. Current_lr: 0.00099
+Epoch 9, Update count 2. Current_lr: 0.00102
+Epoch 9, Update count 3. Current_lr: 0.00105
+Epoch 9, Update count 4. Current_lr: 0.00108
+  Average training loss: 2.19
+
+======== Epoch 10 / 80 ========
+Training...
+Epoch 10, Update count 1. Current_lr: 0.00111
+Epoch 10, Update count 2. Current_lr: 0.00114
+Epoch 10, Update count 3. Current_lr: 0.00117
+Epoch 10, Update count 4. Current_lr: 0.0012000000000000001
+  Average training loss: 2.07
+
+======== Epoch 11 / 80 ========
+Training...
+Epoch 11, Update count 1. Current_lr: 0.00123
+Epoch 11, Update count 2. Current_lr: 0.00126
+Epoch 11, Update count 3. Current_lr: 0.00129
+Epoch 11, Update count 4. Current_lr: 0.00132
+  Average training loss: 1.98
+
+======== Epoch 12 / 80 ========
+Training...
+Epoch 12, Update count 1. Current_lr: 0.00135
+Epoch 12, Update count 2. Current_lr: 0.0013800000000000002
+Epoch 12, Update count 3. Current_lr: 0.00141
+Epoch 12, Update count 4. Current_lr: 0.0014399999999999999
+  Average training loss: 1.90
+
+======== Epoch 13 / 80 ========
+Training...
+Epoch 13, Update count 1. Current_lr: 0.00147
+Epoch 13, Update count 2. Current_lr: 0.0015
+Epoch 13, Update count 3. Current_lr: 0.0015300000000000001
+Epoch 13, Update count 4. Current_lr: 0.0015600000000000002
+  Average training loss: 1.83
+
+======== Epoch 14 / 80 ========
+Training...
+Epoch 14, Update count 1. Current_lr: 0.00159
+Epoch 14, Update count 2. Current_lr: 0.0016200000000000001
+Epoch 14, Update count 3. Current_lr: 0.0016500000000000002
+Epoch 14, Update count 4. Current_lr: 0.0016800000000000003
+  Average training loss: 1.76
+
+======== Epoch 15 / 80 ========
+Training...
+Epoch 15, Update count 1. Current_lr: 0.00171
+Epoch 15, Update count 2. Current_lr: 0.00174
+Epoch 15, Update count 3. Current_lr: 0.0017699999999999999
+Epoch 15, Update count 4. Current_lr: 0.0018
+  Average training loss: 1.69
+################################
+Finsh saving models
+
+======== Epoch 16 / 80 ========
+Training...
+Epoch 16, Update count 1. Current_lr: 0.00183
+Epoch 16, Update count 2. Current_lr: 0.00186
+Epoch 16, Update count 3. Current_lr: 0.00189
+Epoch 16, Update count 4. Current_lr: 0.00192
+  Average training loss: 1.64
+
+======== Epoch 17 / 80 ========
+Training...
+Epoch 17, Update count 1. Current_lr: 0.0019500000000000001
+Epoch 17, Update count 2. Current_lr: 0.00198
+Epoch 17, Update count 3. Current_lr: 0.00201
+Epoch 17, Update count 4. Current_lr: 0.00204
+  Average training loss: 1.58
+
+======== Epoch 18 / 80 ========
+Training...
+Epoch 18, Update count 1. Current_lr: 0.00207
+Epoch 18, Update count 2. Current_lr: 0.0021
+Epoch 18, Update count 3. Current_lr: 0.00213
+Epoch 18, Update count 4. Current_lr: 0.00216
+  Average training loss: 1.52
+
+======== Epoch 19 / 80 ========
+Training...
+Epoch 19, Update count 1. Current_lr: 0.00219
+Epoch 19, Update count 2. Current_lr: 0.00222
+Epoch 19, Update count 3. Current_lr: 0.0022500000000000003
+Epoch 19, Update count 4. Current_lr: 0.00228
+  Average training loss: 1.47
+
+======== Epoch 20 / 80 ========
+Training...
+Epoch 20, Update count 1. Current_lr: 0.00231
+Epoch 20, Update count 2. Current_lr: 0.00234
+Epoch 20, Update count 3. Current_lr: 0.00237
+Epoch 20, Update count 4. Current_lr: 0.0024000000000000002
+  Average training loss: 1.42
+
+======== Epoch 21 / 80 ========
+Training...
+Epoch 21, Update count 1. Current_lr: 0.0024300000000000003
+Epoch 21, Update count 2. Current_lr: 0.00246
+Epoch 21, Update count 3. Current_lr: 0.00249
+Epoch 21, Update count 4. Current_lr: 0.00252
+  Average training loss: 1.37
+
+======== Epoch 22 / 80 ========
+Training...
+Epoch 22, Update count 1. Current_lr: 0.00255
+Epoch 22, Update count 2. Current_lr: 0.00258
+Epoch 22, Update count 3. Current_lr: 0.00261
+Epoch 22, Update count 4. Current_lr: 0.00264
+  Average training loss: 1.31
+
+======== Epoch 23 / 80 ========
+Training...
+Epoch 23, Update count 1. Current_lr: 0.00267
+Epoch 23, Update count 2. Current_lr: 0.0027
+Epoch 23, Update count 3. Current_lr: 0.0027300000000000002
+Epoch 23, Update count 4. Current_lr: 0.0027600000000000003
+  Average training loss: 1.26
+
+======== Epoch 24 / 80 ========
+Training...
+Epoch 24, Update count 1. Current_lr: 0.0027900000000000004
+Epoch 24, Update count 2. Current_lr: 0.00282
+Epoch 24, Update count 3. Current_lr: 0.00285
+Epoch 24, Update count 4. Current_lr: 0.0028799999999999997
+  Average training loss: 1.21
+
+======== Epoch 25 / 80 ========
+Training...
+Epoch 25, Update count 1. Current_lr: 0.00291
+Epoch 25, Update count 2. Current_lr: 0.00294
+Epoch 25, Update count 3. Current_lr: 0.00297
+Epoch 25, Update count 4. Current_lr: 0.003
+  Average training loss: 1.16
+################################
+Finsh saving models
+
+======== Epoch 26 / 80 ========
+Training...
+Epoch 26, Update count 1. Current_lr: 0.0029863636363636364
+Epoch 26, Update count 2. Current_lr: 0.002972727272727273
+Epoch 26, Update count 3. Current_lr: 0.002959090909090909
+Epoch 26, Update count 4. Current_lr: 0.0029454545454545454
+  Average training loss: 1.10
+
+======== Epoch 27 / 80 ========
+Training...
+Epoch 27, Update count 1. Current_lr: 0.002931818181818182
+Epoch 27, Update count 2. Current_lr: 0.0029181818181818185
+Epoch 27, Update count 3. Current_lr: 0.0029045454545454544
+Epoch 27, Update count 4. Current_lr: 0.002890909090909091
+  Average training loss: 1.06
+
+======== Epoch 28 / 80 ========
+Training...
+Epoch 28, Update count 1. Current_lr: 0.0028772727272727274
+Epoch 28, Update count 2. Current_lr: 0.0028636363636363638
+Epoch 28, Update count 3. Current_lr: 0.00285
+Epoch 28, Update count 4. Current_lr: 0.0028363636363636364
+  Average training loss: 1.02
+
+======== Epoch 29 / 80 ========
+Training...
+Epoch 29, Update count 1. Current_lr: 0.0028227272727272728
+Epoch 29, Update count 2. Current_lr: 0.002809090909090909
+Epoch 29, Update count 3. Current_lr: 0.0027954545454545454
+Epoch 29, Update count 4. Current_lr: 0.0027818181818181817
+  Average training loss: 0.97
+
+======== Epoch 30 / 80 ========
+Training...
+Epoch 30, Update count 1. Current_lr: 0.002768181818181818
+Epoch 30, Update count 2. Current_lr: 0.002754545454545455
+Epoch 30, Update count 3. Current_lr: 0.002740909090909091
+Epoch 30, Update count 4. Current_lr: 0.002727272727272727
+  Average training loss: 0.91
+################################
+Finsh saving models
+
+======== Epoch 31 / 80 ========
+Training...
+Epoch 31, Update count 1. Current_lr: 0.002713636363636364
+Epoch 31, Update count 2. Current_lr: 0.0027
+Epoch 31, Update count 3. Current_lr: 0.0026863636363636365
+Epoch 31, Update count 4. Current_lr: 0.002672727272727273
+  Average training loss: 0.87
+
+======== Epoch 32 / 80 ========
+Training...
+Epoch 32, Update count 1. Current_lr: 0.002659090909090909
+Epoch 32, Update count 2. Current_lr: 0.0026454545454545455
+Epoch 32, Update count 3. Current_lr: 0.002631818181818182
+Epoch 32, Update count 4. Current_lr: 0.002618181818181818
+  Average training loss: 0.81
+
+======== Epoch 33 / 80 ========
+Training...
+Epoch 33, Update count 1. Current_lr: 0.0026045454545454544
+Epoch 33, Update count 2. Current_lr: 0.002590909090909091
+Epoch 33, Update count 3. Current_lr: 0.0025772727272727275
+Epoch 33, Update count 4. Current_lr: 0.0025636363636363634
+  Average training loss: 0.77
+
+======== Epoch 34 / 80 ========
+Training...
+Epoch 34, Update count 1. Current_lr: 0.00255
+Epoch 34, Update count 2. Current_lr: 0.0025363636363636365
+Epoch 34, Update count 3. Current_lr: 0.002522727272727273
+Epoch 34, Update count 4. Current_lr: 0.002509090909090909
+  Average training loss: 0.72
+
+======== Epoch 35 / 80 ========
+Training...
+Epoch 35, Update count 1. Current_lr: 0.0024954545454545455
+Epoch 35, Update count 2. Current_lr: 0.002481818181818182
+Epoch 35, Update count 3. Current_lr: 0.002468181818181818
+Epoch 35, Update count 4. Current_lr: 0.002454545454545455
+  Average training loss: 0.68
+
+======== Epoch 36 / 80 ========
+Training...
+Epoch 36, Update count 1. Current_lr: 0.002440909090909091
+Epoch 36, Update count 2. Current_lr: 0.002427272727272727
+Epoch 36, Update count 3. Current_lr: 0.002413636363636364
+Epoch 36, Update count 4. Current_lr: 0.0024000000000000002
+  Average training loss: 0.64
+
+======== Epoch 37 / 80 ========
+Training...
+Epoch 37, Update count 1. Current_lr: 0.002386363636363636
+Epoch 37, Update count 2. Current_lr: 0.002372727272727273
+Epoch 37, Update count 3. Current_lr: 0.002359090909090909
+Epoch 37, Update count 4. Current_lr: 0.0023454545454545455
+  Average training loss: 0.60
+
+======== Epoch 38 / 80 ========
+Training...
+Epoch 38, Update count 1. Current_lr: 0.002331818181818182
+Epoch 38, Update count 2. Current_lr: 0.002318181818181818
+Epoch 38, Update count 3. Current_lr: 0.0023045454545454545
+Epoch 38, Update count 4. Current_lr: 0.002290909090909091
+  Average training loss: 0.56
+
+======== Epoch 39 / 80 ========
+Training...
+Epoch 39, Update count 1. Current_lr: 0.002277272727272727
+Epoch 39, Update count 2. Current_lr: 0.0022636363636363635
+Epoch 39, Update count 3. Current_lr: 0.0022500000000000003
+Epoch 39, Update count 4. Current_lr: 0.0022363636363636366
+  Average training loss: 0.53
+
+======== Epoch 40 / 80 ========
+Training...
+Epoch 40, Update count 1. Current_lr: 0.002222727272727273
+Epoch 40, Update count 2. Current_lr: 0.0022090909090909092
+Epoch 40, Update count 3. Current_lr: 0.0021954545454545456
+Epoch 40, Update count 4. Current_lr: 0.002181818181818182
+  Average training loss: 0.49
+
+======== Epoch 41 / 80 ========
+Training...
+Epoch 41, Update count 1. Current_lr: 0.0021681818181818182
+Epoch 41, Update count 2. Current_lr: 0.0021545454545454546
+Epoch 41, Update count 3. Current_lr: 0.002140909090909091
+Epoch 41, Update count 4. Current_lr: 0.002127272727272727
+  Average training loss: 0.47
+
+======== Epoch 42 / 80 ========
+Training...
+Epoch 42, Update count 1. Current_lr: 0.002113636363636364
+Epoch 42, Update count 2. Current_lr: 0.0021
+Epoch 42, Update count 3. Current_lr: 0.002086363636363636
+Epoch 42, Update count 4. Current_lr: 0.002072727272727273
+  Average training loss: 0.44
+
+======== Epoch 43 / 80 ========
+Training...
+Epoch 43, Update count 1. Current_lr: 0.0020590909090909093
+Epoch 43, Update count 2. Current_lr: 0.002045454545454545
+Epoch 43, Update count 3. Current_lr: 0.002031818181818182
+Epoch 43, Update count 4. Current_lr: 0.0020181818181818183
+  Average training loss: 0.41
+
+======== Epoch 44 / 80 ========
+Training...
+Epoch 44, Update count 1. Current_lr: 0.0020045454545454546
+Epoch 44, Update count 2. Current_lr: 0.001990909090909091
+Epoch 44, Update count 3. Current_lr: 0.0019772727272727273
+Epoch 44, Update count 4. Current_lr: 0.0019636363636363636
+  Average training loss: 0.39
+
+======== Epoch 45 / 80 ========
+Training...
+Epoch 45, Update count 1. Current_lr: 0.0019500000000000001
+Epoch 45, Update count 2. Current_lr: 0.0019363636363636365
+Epoch 45, Update count 3. Current_lr: 0.0019227272727272726
+Epoch 45, Update count 4. Current_lr: 0.0019090909090909091
+  Average training loss: 0.37
+################################
+Finsh saving models
+
+  Average training loss: 0.37
+  Training epoch took: 0:26:24
+
+Running Validation...
+
+Training complete!
+Saving model to ./model_more_epoches
+#########################################################################
+The semantic similarity after fine-tuning is: 0.8444550693035126
+#########################################################################
