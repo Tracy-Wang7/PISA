@@ -1,0 +1,91 @@
+model-resnet18-optimizer-adabelief-lr-0.001-epochs-90-decay-epoch-[70, 80]-eps1e-08-beta10.9-beta20.999-centralize-False-resetFalse-start-epoch-None-l2-decay0.01-l1-decay0.0-batch-256-warmup-False-fixed-decay-False
+Use GPU: 1 for training
+=> creating model 'resnet18'
+[31mPlease check your arguments if you have upgraded adabelief-pytorch from version 0.0.5.
+[31mModifications to default arguments:
+[31m                           eps  weight_decouple    rectify
+-----------------------  -----  -----------------  ---------
+adabelief-pytorch=0.0.5  1e-08  False              False
+>=0.1.0 (Current 0.2.0)  1e-16  True               True
+[34mSGD better than Adam (e.g. CNN for Image Classification)    Adam better than SGD (e.g. Transformer, GAN)
+----------------------------------------------------------  ----------------------------------------------
+Recommended eps = 1e-8                                      Recommended eps = 1e-16
+[34mFor a complete table of recommended hyperparameters, see
+[34mhttps://github.com/juntang-zhuang/Adabelief-Optimizer
+[32mYou can disable the log message by setting "print_change_log = False", though it is recommended to keep as a reminder.
+[0m
+Weight decoupling enabled in AdaBelief
+Current LR is: 0.001
+Current sigma_lr is: 0.005
+updating iteration in 0 epoch Average training loss: 7.0283362644654765
+Test: [  0/196]	Time  3.978 ( 3.978)	Loss 6.9330e+00 (6.9330e+00)	Acc@1  13.67 ( 13.67)	Acc@5  18.75 ( 18.75)
+Test: [ 10/196]	Time  0.018 ( 0.385)	Loss 7.0213e+00 (7.0201e+00)	Acc@1   0.00 (  1.24)	Acc@5   0.00 (  1.88)
+Test: [ 20/196]	Time  0.036 ( 0.260)	Loss 6.7719e+00 (7.0349e+00)	Acc@1   0.00 (  0.65)	Acc@5   0.00 (  1.00)
+Test: [ 30/196]	Time  0.036 ( 0.188)	Loss 6.9491e+00 (7.0259e+00)	Acc@1   0.00 (  0.48)	Acc@5   0.00 (  1.20)
+Test: [ 40/196]	Time  0.018 ( 0.184)	Loss 7.1789e+00 (7.0318e+00)	Acc@1   0.00 (  0.36)	Acc@5   0.00 (  0.91)
+Test: [ 50/196]	Time  0.018 ( 0.180)	Loss 7.1362e+00 (7.0276e+00)	Acc@1   0.00 (  0.29)	Acc@5   0.00 (  0.74)
+Test: [ 60/196]	Time  0.036 ( 0.166)	Loss 6.9455e+00 (7.0301e+00)	Acc@1   1.56 (  0.27)	Acc@5   3.12 (  0.67)
+Test: [ 70/196]	Time  0.266 ( 0.168)	Loss 6.7645e+00 (7.0155e+00)	Acc@1   0.00 (  0.26)	Acc@5   0.00 (  0.74)
+Test: [ 80/196]	Time  0.032 ( 0.168)	Loss 7.4008e+00 (7.0307e+00)	Acc@1   0.00 (  0.23)	Acc@5   0.00 (  0.65)
+Test: [ 90/196]	Time  0.037 ( 0.159)	Loss 7.3161e+00 (7.0416e+00)	Acc@1   0.00 (  0.21)	Acc@5   0.00 (  0.58)
+Test: [100/196]	Time  0.021 ( 0.157)	Loss 6.5050e+00 (7.0338e+00)	Acc@1   0.00 (  0.19)	Acc@5   1.17 (  0.55)
+Test: [110/196]	Time  0.018 ( 0.149)	Loss 7.0252e+00 (7.0417e+00)	Acc@1   0.00 (  0.17)	Acc@5   0.00 (  0.51)
+Test: [120/196]	Time  0.191 ( 0.150)	Loss 7.1880e+00 (7.0369e+00)	Acc@1   0.00 (  0.15)	Acc@5   0.00 (  0.53)
+Test: [130/196]	Time  0.032 ( 0.153)	Loss 7.3086e+00 (7.0378e+00)	Acc@1   0.00 (  0.14)	Acc@5   0.00 (  0.49)
+Test: [140/196]	Time  0.019 ( 0.146)	Loss 7.2122e+00 (7.0390e+00)	Acc@1   0.00 (  0.15)	Acc@5   1.56 (  0.63)
+Test: [150/196]	Time  0.085 ( 0.146)	Loss 6.9228e+00 (7.0373e+00)	Acc@1   0.00 (  0.14)	Acc@5   0.00 (  0.59)
+Test: [160/196]	Time  0.032 ( 0.147)	Loss 6.9005e+00 (7.0399e+00)	Acc@1   0.00 (  0.13)	Acc@5   0.00 (  0.56)
+Test: [170/196]	Time  0.032 ( 0.144)	Loss 7.1896e+00 (7.0407e+00)	Acc@1   0.00 (  0.12)	Acc@5   0.00 (  0.53)
+Test: [180/196]	Time  0.018 ( 0.144)	Loss 7.1901e+00 (7.0430e+00)	Acc@1   0.00 (  0.12)	Acc@5   0.00 (  0.52)
+Test: [190/196]	Time  0.032 ( 0.140)	Loss 7.0639e+00 (7.0385e+00)	Acc@1   0.00 (  0.11)	Acc@5   0.00 (  0.53)
+ * Acc@1 0.108 Acc@5 0.518
+Current LR is: 0.001
+Current sigma_lr is: 0.005
+updating iteration in 1 epoch Average training loss: 7.027106248629796
+Test: [  0/196]	Time  3.263 ( 3.263)	Loss 6.8189e+00 (6.8189e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.39 (  0.39)
+Test: [ 10/196]	Time  0.015 ( 0.315)	Loss 6.8840e+00 (6.9756e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.00 (  0.32)
+Test: [ 20/196]	Time  0.015 ( 0.255)	Loss 6.8205e+00 (6.9685e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.00 (  0.17)
+Test: [ 30/196]	Time  0.015 ( 0.181)	Loss 6.7703e+00 (6.9609e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.00 (  0.11)
+Test: [ 40/196]	Time  0.015 ( 0.184)	Loss 7.0302e+00 (6.9588e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.00 (  0.15)
+Test: [ 50/196]	Time  0.015 ( 0.182)	Loss 6.8948e+00 (6.9626e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.00 (  0.12)
+Test: [ 60/196]	Time  0.015 ( 0.163)	Loss 6.7976e+00 (6.9580e+00)	Acc@1   0.00 (  0.00)	Acc@5   3.52 (  0.47)
+Test: [ 70/196]	Time  0.020 ( 0.168)	Loss 6.6229e+00 (6.9490e+00)	Acc@1  19.53 (  0.28)	Acc@5  19.53 (  0.75)
+Test: [ 80/196]	Time  0.015 ( 0.172)	Loss 6.9234e+00 (6.9514e+00)	Acc@1   0.00 (  0.24)	Acc@5   0.00 (  0.81)
+Test: [ 90/196]	Time  0.015 ( 0.158)	Loss 6.9053e+00 (6.9525e+00)	Acc@1   0.00 (  0.21)	Acc@5   0.00 (  0.76)
+Test: [100/196]	Time  0.015 ( 0.158)	Loss 6.8553e+00 (6.9540e+00)	Acc@1   0.00 (  0.19)	Acc@5   0.00 (  0.69)
+Test: [110/196]	Time  0.015 ( 0.148)	Loss 7.2224e+00 (6.9617e+00)	Acc@1   0.00 (  0.18)	Acc@5   0.00 (  0.63)
+Test: [120/196]	Time  0.456 ( 0.153)	Loss 7.1808e+00 (6.9595e+00)	Acc@1   0.00 (  0.16)	Acc@5   0.00 (  0.57)
+Test: [130/196]	Time  0.015 ( 0.153)	Loss 7.0538e+00 (6.9590e+00)	Acc@1   0.00 (  0.15)	Acc@5   0.00 (  0.53)
+Test: [140/196]	Time  0.015 ( 0.146)	Loss 7.0084e+00 (6.9596e+00)	Acc@1   0.00 (  0.14)	Acc@5   0.00 (  0.56)
+Test: [150/196]	Time  0.015 ( 0.147)	Loss 6.8746e+00 (6.9561e+00)	Acc@1   0.00 (  0.13)	Acc@5   0.00 (  0.65)
+Test: [160/196]	Time  0.015 ( 0.149)	Loss 6.9534e+00 (6.9590e+00)	Acc@1   0.00 (  0.12)	Acc@5   0.00 (  0.61)
+Test: [170/196]	Time  0.014 ( 0.146)	Loss 7.1322e+00 (6.9588e+00)	Acc@1   0.00 (  0.11)	Acc@5   0.00 (  0.57)
+Test: [180/196]	Time  0.015 ( 0.145)	Loss 7.0938e+00 (6.9581e+00)	Acc@1   0.00 (  0.11)	Acc@5   0.00 (  0.55)
+Test: [190/196]	Time  0.015 ( 0.143)	Loss 7.0837e+00 (6.9572e+00)	Acc@1   0.00 (  0.10)	Acc@5   0.00 (  0.53)
+ * Acc@1 0.100 Acc@5 0.514
+Current LR is: 0.001
+Current sigma_lr is: 0.005
+updating iteration in 2 epoch Average training loss: 7.026942843681091
+Test: [  0/196]	Time  3.290 ( 3.290)	Loss 6.9974e+00 (6.9974e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.00 (  0.00)
+Test: [ 10/196]	Time  0.018 ( 0.324)	Loss 6.9435e+00 (7.0123e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.00 (  1.67)
+Test: [ 20/196]	Time  0.019 ( 0.256)	Loss 6.8559e+00 (7.0068e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.00 (  0.87)
+Test: [ 30/196]	Time  0.019 ( 0.183)	Loss 6.8415e+00 (6.9741e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.00 (  0.87)
+Test: [ 40/196]	Time  0.035 ( 0.184)	Loss 7.2234e+00 (6.9779e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.00 (  0.73)
+Test: [ 50/196]	Time  0.036 ( 0.179)	Loss 6.9814e+00 (6.9798e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.00 (  0.67)
+Test: [ 60/196]	Time  0.019 ( 0.163)	Loss 6.8538e+00 (6.9768e+00)	Acc@1   0.00 (  0.00)	Acc@5   0.39 (  0.57)
+Test: [ 70/196]	Time  0.113 ( 0.166)	Loss 6.9063e+00 (6.9633e+00)	Acc@1   0.00 (  0.02)	Acc@5   0.00 (  0.80)
+Test: [ 80/196]	Time  0.037 ( 0.167)	Loss 6.9365e+00 (6.9616e+00)	Acc@1   0.00 (  0.01)	Acc@5   0.00 (  0.70)
+Test: [ 90/196]	Time  0.032 ( 0.161)	Loss 7.0344e+00 (6.9613e+00)	Acc@1   0.00 (  0.01)	Acc@5   0.00 (  0.64)
+Test: [100/196]	Time  0.019 ( 0.155)	Loss 6.6333e+00 (6.9584e+00)	Acc@1  17.19 (  0.18)	Acc@5  19.53 (  0.78)
+Test: [110/196]	Time  0.019 ( 0.151)	Loss 6.9256e+00 (6.9625e+00)	Acc@1   0.00 (  0.17)	Acc@5   0.00 (  0.71)
+Test: [120/196]	Time  0.207 ( 0.151)	Loss 7.0865e+00 (6.9591e+00)	Acc@1   0.00 (  0.15)	Acc@5   0.00 (  0.65)
+Test: [130/196]	Time  0.032 ( 0.154)	Loss 7.1345e+00 (6.9564e+00)	Acc@1   0.00 (  0.14)	Acc@5   0.00 (  0.60)
+Test: [140/196]	Time  0.035 ( 0.147)	Loss 6.9365e+00 (6.9568e+00)	Acc@1   0.00 (  0.13)	Acc@5   0.00 (  0.68)
+Test: [150/196]	Time  0.036 ( 0.147)	Loss 6.8700e+00 (6.9564e+00)	Acc@1   0.00 (  0.12)	Acc@5   0.00 (  0.64)
+Test: [160/196]	Time  0.035 ( 0.145)	Loss 6.9332e+00 (6.9586e+00)	Acc@1   0.00 (  0.11)	Acc@5   0.78 (  0.60)
+Test: [170/196]	Time  0.032 ( 0.145)	Loss 7.2737e+00 (6.9591e+00)	Acc@1   0.00 (  0.11)	Acc@5   0.00 (  0.58)
+Test: [180/196]	Time  0.018 ( 0.143)	Loss 7.1406e+00 (6.9606e+00)	Acc@1   0.00 (  0.10)	Acc@5   0.00 (  0.55)
+Test: [190/196]	Time  0.035 ( 0.141)	Loss 7.0808e+00 (6.9604e+00)	Acc@1   0.00 (  0.10)	Acc@5   0.00 (  0.52)
+ * Acc@1 0.094 Acc@5 0.512
+Current LR is: 0.001
+Current sigma_lr is: 0.005
