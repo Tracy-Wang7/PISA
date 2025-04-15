@@ -1,0 +1,78 @@
+learning rate decay is: [0.25, 0.25, 0.25, 0.25]
+Loading cached dataset...
+Applying weight drop of 0.5 to weight_hh_l0
+Applying weight drop of 0.5 to weight_hh_l0
+Applying weight drop of 0.5 to weight_hh_l0
+[WeightDrop(
+  (module): LSTM(400, 1150)
+), WeightDrop(
+  (module): LSTM(1150, 1150)
+), WeightDrop(
+  (module): LSTM(1150, 400)
+)]
+Using []
+Args: Namespace(alpha=2, batch_size=20, beta=1, beta1=0.9, beta2=0.999, beta_rmsprop=0.999, bptt=70, clip=0.25, cuda=True, data='data/penn', dropout=0.4, dropoute=0.1, dropouth=0.25, dropouti=0.4, emsize=400, epochs=201, eps=1e-12, eps_sqrt=0.0, log_interval=200, lr=0.03, lr_gamma=[0.25, 0.25, 0.25, 0.25], model='LSTM', nhid=1150, nlayers=3, nonmono=5, num_gpu=4, optimizer='adam', resume='', rho_lr=10000, run=0, save='PTB.pt-niter-201-optimizer-adam-nlayers3-lr0.03-clip-0.25-eps1e-12-epsqrt0.0-betas-0.9-0.999-run0-wdecay1.2e-06-when-[90, 120, 160, 195, 200, 300, 500]', seed=141, sigma_lr=0.1, tied=True, wdecay=1.2e-06, wdrop=0.5, when=[90, 120, 160, 195, 200, 300, 500])
+Model total parameters: 24221600
+alpha_b is:  [0.25, 0.25, 0.25, 0.25]
+Current LR is: [0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03]
+Current sigma_lr is: [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+| epoch   1 |   200/  663 batches | lr 0.03000 | ms/batch 38.18 | loss  6.87 | ppl   963.86 | bpc    9.913
+| epoch   1 |   400/  663 batches | lr 0.03000 | ms/batch 34.07 | loss  6.60 | ppl   737.23 | bpc    9.526
+| epoch   1 |   600/  663 batches | lr 0.03000 | ms/batch 34.03 | loss  6.49 | ppl   657.89 | bpc    9.362
+-----------------------------------------------------------------------------------------
+| end of epoch   1 | time: 28.65s | valid loss  6.29 | valid ppl   539.15 | valid bpc    9.075
+-----------------------------------------------------------------------------------------
+Saving model (new best validation)
+Current LR is: [0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03]
+Current sigma_lr is: [0.09459459459459461, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+| epoch   2 |   200/  663 batches | lr 0.03000 | ms/batch 35.42 | loss  6.32 | ppl   555.32 | bpc    9.117
+| epoch   2 |   400/  663 batches | lr 0.03000 | ms/batch 36.34 | loss  6.15 | ppl   470.14 | bpc    8.877
+| epoch   2 |   600/  663 batches | lr 0.03000 | ms/batch 34.27 | loss  6.01 | ppl   408.55 | bpc    8.674
+-----------------------------------------------------------------------------------------
+| end of epoch   2 | time: 28.33s | valid loss  5.79 | valid ppl   327.25 | valid bpc    8.354
+-----------------------------------------------------------------------------------------
+Saving model (new best validation)
+Current LR is: [0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03]
+Current sigma_lr is: [0.1076923076923077, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+| epoch   3 |   200/  663 batches | lr 0.03000 | ms/batch 34.71 | loss  5.91 | ppl   368.69 | bpc    8.526
+| epoch   3 |   400/  663 batches | lr 0.03000 | ms/batch 34.44 | loss  5.81 | ppl   334.31 | bpc    8.385
+| epoch   3 |   600/  663 batches | lr 0.03000 | ms/batch 34.21 | loss  5.72 | ppl   305.48 | bpc    8.255
+-----------------------------------------------------------------------------------------
+| end of epoch   3 | time: 27.90s | valid loss  5.51 | valid ppl   246.25 | valid bpc    7.944
+-----------------------------------------------------------------------------------------
+Saving model (new best validation)
+Current LR is: [0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03]
+Current sigma_lr is: [0.10606060606060606, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+| epoch   4 |   200/  663 batches | lr 0.03000 | ms/batch 34.41 | loss  5.68 | ppl   292.26 | bpc    8.191
+| epoch   4 |   400/  663 batches | lr 0.03000 | ms/batch 34.44 | loss  5.61 | ppl   272.40 | bpc    8.090
+| epoch   4 |   600/  663 batches | lr 0.03000 | ms/batch 34.69 | loss  5.54 | ppl   254.64 | bpc    7.992
+-----------------------------------------------------------------------------------------
+| end of epoch   4 | time: 27.66s | valid loss  5.35 | valid ppl   210.12 | valid bpc    7.715
+-----------------------------------------------------------------------------------------
+Saving model (new best validation)
+Current LR is: [0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03]
+Current sigma_lr is: [0.0875, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+| epoch   5 |   200/  663 batches | lr 0.03000 | ms/batch 34.11 | loss  5.53 | ppl   251.09 | bpc    7.972
+| epoch   5 |   400/  663 batches | lr 0.03000 | ms/batch 35.32 | loss  5.47 | ppl   237.41 | bpc    7.891
+| epoch   5 |   600/  663 batches | lr 0.03000 | ms/batch 34.69 | loss  5.42 | ppl   226.89 | bpc    7.826
+-----------------------------------------------------------------------------------------
+| end of epoch   5 | time: 27.71s | valid loss  5.23 | valid ppl   186.48 | valid bpc    7.543
+-----------------------------------------------------------------------------------------
+Saving model (new best validation)
+Current LR is: [0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03]
+Current sigma_lr is: [0.10606060606060606, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+| epoch   6 |   200/  663 batches | lr 0.03000 | ms/batch 34.39 | loss  5.41 | ppl   224.03 | bpc    7.808
+| epoch   6 |   400/  663 batches | lr 0.03000 | ms/batch 33.90 | loss  5.37 | ppl   215.43 | bpc    7.751
+| epoch   6 |   600/  663 batches | lr 0.03000 | ms/batch 33.84 | loss  5.33 | ppl   205.75 | bpc    7.685
+-----------------------------------------------------------------------------------------
+| end of epoch   6 | time: 27.54s | valid loss  5.14 | valid ppl   170.93 | valid bpc    7.417
+-----------------------------------------------------------------------------------------
+Saving model (new best validation)
+Current LR is: [0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03, 0.03]
+Current sigma_lr is: [0.109375, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1]
+| epoch   7 |   200/  663 batches | lr 0.03000 | ms/batch 34.99 | loss  5.33 | ppl   205.72 | bpc    7.685
+-----------------------------------------------------------------------------------------
+Exiting from training early
+=========================================================================================
+| End of training | test loss  5.14 | test ppl   170.93 | test bpc    7.417
+=========================================================================================
