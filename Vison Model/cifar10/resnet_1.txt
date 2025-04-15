@@ -1,0 +1,1442 @@
+==> Preparing data..
+Files already downloaded and verified
+Files already downloaded and verified
+ckpt_name
+==> Building model..
+alpha_b is:  [0.25, 0.25, 0.25, 0.25]
+Current LR is: 0.00019999600007999837
+Current sigma_lr is: 0.1
+updating iteration in 0 epoch Average training loss: 1.5468365563760937
+###############################################
+ test acc 55.500
+###############################################
+Time: 60.85427522659302
+Current LR is: 0.00019999600007999837
+Current sigma_lr is: 0.1
+updating iteration in 1 epoch Average training loss: 1.1079521508663512
+###############################################
+ test acc 67.380
+###############################################
+Time: 59.53657126426697
+Current LR is: 0.00019999600007999837
+Current sigma_lr is: 0.1
+updating iteration in 2 epoch Average training loss: 0.8625136849939671
+###############################################
+ test acc 72.500
+###############################################
+Time: 60.79894185066223
+Current LR is: 0.00019999600007999837
+Current sigma_lr is: 0.1
+updating iteration in 3 epoch Average training loss: 0.7028475295075828
+###############################################
+ test acc 78.000
+###############################################
+Time: 57.83138084411621
+Current LR is: 0.00019999600007999837
+Current sigma_lr is: 0.1
+updating iteration in 4 epoch Average training loss: 0.6001790653714134
+###############################################
+ test acc 80.090
+###############################################
+Time: 62.10035181045532
+Current LR is: 0.00019999600007999837
+Current sigma_lr is: 0.1
+updating iteration in 5 epoch Average training loss: 0.5471290746213072
+###############################################
+ test acc 81.340
+###############################################
+Time: 57.992172956466675
+Current LR is: 0.0001699966000679986
+Current sigma_lr is: 0.11764705882352942
+updating iteration in 6 epoch Average training loss: 0.4880990255814608
+###############################################
+ test acc 83.980
+###############################################
+Time: 58.09157133102417
+Current LR is: 0.0001699966000679986
+Current sigma_lr is: 0.11764705882352942
+updating iteration in 7 epoch Average training loss: 0.451297311907839
+###############################################
+ test acc 84.490
+###############################################
+Time: 55.176514863967896
+Current LR is: 0.0001699966000679986
+Current sigma_lr is: 0.11764705882352942
+updating iteration in 8 epoch Average training loss: 0.43044879150760296
+###############################################
+ test acc 84.250
+###############################################
+Time: 60.092057943344116
+Current LR is: 0.0001444971100577988
+Current sigma_lr is: 0.1384083044982699
+updating iteration in 9 epoch Average training loss: 0.38671633546404977
+###############################################
+ test acc 86.390
+###############################################
+Time: 58.000211000442505
+Current LR is: 0.0001444971100577988
+Current sigma_lr is: 0.1384083044982699
+updating iteration in 10 epoch Average training loss: 0.37011154601707713
+###############################################
+ test acc 86.420
+###############################################
+Time: 57.00592017173767
+Current LR is: 0.0001444971100577988
+Current sigma_lr is: 0.1384083044982699
+updating iteration in 11 epoch Average training loss: 0.3529011278372744
+###############################################
+ test acc 86.980
+###############################################
+Time: 58.93710398674011
+Current LR is: 0.000122822543549129
+Current sigma_lr is: 0.16283329940972932
+updating iteration in 12 epoch Average training loss: 0.3306973767097649
+###############################################
+ test acc 87.820
+###############################################
+Time: 58.181872606277466
+Current LR is: 0.000122822543549129
+Current sigma_lr is: 0.16283329940972932
+updating iteration in 13 epoch Average training loss: 0.31578228222754073
+###############################################
+ test acc 87.950
+###############################################
+Time: 61.981377363204956
+Current LR is: 0.000122822543549129
+Current sigma_lr is: 0.16283329940972932
+updating iteration in 14 epoch Average training loss: 0.3036978323288891
+###############################################
+ test acc 88.140
+###############################################
+Time: 58.8188157081604
+Current LR is: 0.00010439916201675964
+Current sigma_lr is: 0.191568587540858
+updating iteration in 15 epoch Average training loss: 0.27262146249318214
+###############################################
+ test acc 88.910
+###############################################
+Time: 61.68734264373779
+Current LR is: 0.00010439916201675964
+Current sigma_lr is: 0.191568587540858
+updating iteration in 16 epoch Average training loss: 0.2755838721904837
+###############################################
+ test acc 89.000
+###############################################
+Time: 57.14162063598633
+Current LR is: 0.00010439916201675964
+Current sigma_lr is: 0.191568587540858
+updating iteration in 17 epoch Average training loss: 0.26416989911795424
+###############################################
+ test acc 88.970
+###############################################
+Time: 63.079578161239624
+Current LR is: 8.873928771424569e-05
+Current sigma_lr is: 0.22537480887159766
+updating iteration in 18 epoch Average training loss: 0.23995063289442597
+###############################################
+ test acc 90.100
+###############################################
+Time: 57.542380809783936
+Current LR is: 8.873928771424569e-05
+Current sigma_lr is: 0.22537480887159766
+updating iteration in 19 epoch Average training loss: 0.22749920695891504
+###############################################
+ test acc 89.970
+###############################################
+Time: 57.62037014961243
+Current LR is: 8.873928771424569e-05
+Current sigma_lr is: 0.22537480887159766
+updating iteration in 20 epoch Average training loss: 0.22452684431015263
+###############################################
+ test acc 90.040
+###############################################
+Time: 63.45651721954346
+Current LR is: 7.542839455710884e-05
+Current sigma_lr is: 0.2651468339665855
+updating iteration in 21 epoch Average training loss: 0.20886344816285612
+###############################################
+ test acc 90.510
+###############################################
+Time: 58.7226927280426
+Current LR is: 7.542839455710884e-05
+Current sigma_lr is: 0.2651468339665855
+updating iteration in 22 epoch Average training loss: 0.18964488679528846
+###############################################
+ test acc 90.560
+###############################################
+Time: 61.062472105026245
+Current LR is: 7.542839455710884e-05
+Current sigma_lr is: 0.2651468339665855
+updating iteration in 23 epoch Average training loss: 0.1941742313075382
+###############################################
+ test acc 90.550
+###############################################
+Time: 61.93215775489807
+Current LR is: 6.411413537354251e-05
+Current sigma_lr is: 0.3119374517253947
+updating iteration in 24 epoch Average training loss: 0.17746825688971143
+###############################################
+ test acc 90.730
+###############################################
+Time: 59.88889408111572
+Current LR is: 6.411413537354251e-05
+Current sigma_lr is: 0.3119374517253947
+updating iteration in 25 epoch Average training loss: 0.166318340572681
+###############################################
+ test acc 91.080
+###############################################
+Time: 55.80577564239502
+Current LR is: 6.411413537354251e-05
+Current sigma_lr is: 0.3119374517253947
+updating iteration in 26 epoch Average training loss: 0.16615939580316147
+###############################################
+ test acc 91.090
+###############################################
+Time: 59.44648361206055
+Current LR is: 5.449701506751113e-05
+Current sigma_lr is: 0.3669852373239938
+updating iteration in 27 epoch Average training loss: 0.1505707686834271
+###############################################
+ test acc 91.640
+###############################################
+Time: 55.66961359977722
+Current LR is: 5.449701506751113e-05
+Current sigma_lr is: 0.3669852373239938
+updating iteration in 28 epoch Average training loss: 0.13945562418182844
+###############################################
+ test acc 91.190
+###############################################
+Time: 61.92526364326477
+Current LR is: 5.449701506751113e-05
+Current sigma_lr is: 0.3669852373239938
+updating iteration in 29 epoch Average training loss: 0.14084515542142054
+###############################################
+ test acc 91.370
+###############################################
+Time: 58.42078399658203
+Current LR is: 4.632246280738446e-05
+Current sigma_lr is: 0.431747338028228
+updating iteration in 30 epoch Average training loss: 0.12339266800098932
+###############################################
+ test acc 92.230
+###############################################
+Time: 59.803324937820435
+Current LR is: 4.632246280738446e-05
+Current sigma_lr is: 0.431747338028228
+updating iteration in 31 epoch Average training loss: 0.11916013602602064
+###############################################
+ test acc 91.920
+###############################################
+Time: 60.31637477874756
+Current LR is: 4.632246280738446e-05
+Current sigma_lr is: 0.431747338028228
+updating iteration in 32 epoch Average training loss: 0.11491126416068252
+###############################################
+ test acc 91.530
+###############################################
+Time: 59.667874574661255
+Current LR is: 3.9374093386276786e-05
+Current sigma_lr is: 0.5079380447390919
+updating iteration in 33 epoch Average training loss: 0.10258917164359994
+###############################################
+ test acc 91.980
+###############################################
+Time: 56.371368646621704
+Current LR is: 3.9374093386276786e-05
+Current sigma_lr is: 0.5079380447390919
+updating iteration in 34 epoch Average training loss: 0.0966683242215014
+###############################################
+ test acc 92.000
+###############################################
+Time: 57.970174074172974
+Current LR is: 3.9374093386276786e-05
+Current sigma_lr is: 0.5079380447390919
+updating iteration in 35 epoch Average training loss: 0.09955118555108756
+###############################################
+ test acc 92.110
+###############################################
+Time: 65.77172684669495
+Current LR is: 3.346797937833527e-05
+Current sigma_lr is: 0.5975741702812845
+updating iteration in 36 epoch Average training loss: 0.0828299108896252
+###############################################
+ test acc 92.420
+###############################################
+Time: 58.59054708480835
+Current LR is: 3.346797937833527e-05
+Current sigma_lr is: 0.5975741702812845
+updating iteration in 37 epoch Average training loss: 0.078410284410444
+###############################################
+ test acc 92.220
+###############################################
+Time: 55.523552656173706
+Current LR is: 3.346797937833527e-05
+Current sigma_lr is: 0.5975741702812845
+updating iteration in 38 epoch Average training loss: 0.07845648886431056
+###############################################
+ test acc 92.610
+###############################################
+Time: 59.037235736846924
+Current LR is: 2.844778247158498e-05
+Current sigma_lr is: 0.7030284356250406
+updating iteration in 39 epoch Average training loss: 0.06801614672658057
+###############################################
+ test acc 92.300
+###############################################
+Time: 55.69388127326965
+Current LR is: 2.844778247158498e-05
+Current sigma_lr is: 0.7030284356250406
+updating iteration in 40 epoch Average training loss: 0.06486886215727905
+###############################################
+ test acc 92.440
+###############################################
+Time: 59.01297068595886
+Current LR is: 2.844778247158498e-05
+Current sigma_lr is: 0.7030284356250406
+updating iteration in 41 epoch Average training loss: 0.061509119326231196
+###############################################
+ test acc 92.630
+###############################################
+Time: 56.166874170303345
+Current LR is: 2.4180615100847232e-05
+Current sigma_lr is: 0.8270922772059301
+updating iteration in 42 epoch Average training loss: 0.0580583663542381
+###############################################
+ test acc 92.700
+###############################################
+Time: 59.273001194000244
+Current LR is: 2.4180615100847232e-05
+Current sigma_lr is: 0.8270922772059301
+updating iteration in 43 epoch Average training loss: 0.04917324374767367
+###############################################
+ test acc 92.860
+###############################################
+Time: 58.40983843803406
+Current LR is: 2.4180615100847232e-05
+Current sigma_lr is: 0.8270922772059301
+updating iteration in 44 epoch Average training loss: 0.04637720124145328
+###############################################
+ test acc 92.910
+###############################################
+Time: 58.42591667175293
+Current LR is: 2.0553522835720147e-05
+Current sigma_lr is: 0.9730497378893296
+updating iteration in 45 epoch Average training loss: 0.043414391179615514
+###############################################
+ test acc 93.400
+###############################################
+Time: 59.676286458969116
+Current LR is: 2.0553522835720147e-05
+Current sigma_lr is: 0.9730497378893296
+updating iteration in 46 epoch Average training loss: 0.03863849614894174
+###############################################
+ test acc 92.910
+###############################################
+Time: 57.0910279750824
+Current LR is: 2.0553522835720147e-05
+Current sigma_lr is: 0.9730497378893296
+updating iteration in 47 epoch Average training loss: 0.038275391577960415
+###############################################
+ test acc 93.020
+###############################################
+Time: 59.718822956085205
+Current LR is: 1.7470494410362125e-05
+Current sigma_lr is: 1.1447643975168582
+updating iteration in 48 epoch Average training loss: 0.033540694828406395
+###############################################
+ test acc 93.260
+###############################################
+Time: 57.5792932510376
+Current LR is: 1.7470494410362125e-05
+Current sigma_lr is: 1.1447643975168582
+updating iteration in 49 epoch Average training loss: 0.027815371904275674
+###############################################
+ test acc 93.310
+###############################################
+Time: 58.22752642631531
+Current LR is: 1.7470494410362125e-05
+Current sigma_lr is: 1.1447643975168582
+updating iteration in 50 epoch Average training loss: 0.02857553632274899
+###############################################
+ test acc 93.510
+###############################################
+Time: 58.21140813827515
+Current LR is: 1.4849920248807807e-05
+Current sigma_lr is: 1.3467816441374802
+updating iteration in 51 epoch Average training loss: 0.022661889423825018
+###############################################
+ test acc 93.630
+###############################################
+Time: 60.42362880706787
+Current LR is: 1.4849920248807807e-05
+Current sigma_lr is: 1.3467816441374802
+updating iteration in 52 epoch Average training loss: 0.023972993501947502
+###############################################
+ test acc 93.390
+###############################################
+Time: 56.25602722167969
+Current LR is: 1.4849920248807807e-05
+Current sigma_lr is: 1.3467816441374802
+updating iteration in 53 epoch Average training loss: 0.022424275319095063
+###############################################
+ test acc 93.480
+###############################################
+Time: 57.31310439109802
+Current LR is: 1.2622432211486635e-05
+Current sigma_lr is: 1.5844489931029182
+updating iteration in 54 epoch Average training loss: 0.01761183859104288
+###############################################
+ test acc 93.440
+###############################################
+Time: 58.676950216293335
+Current LR is: 1.2622432211486635e-05
+Current sigma_lr is: 1.5844489931029182
+updating iteration in 55 epoch Average training loss: 0.016989379101699148
+###############################################
+ test acc 93.920
+###############################################
+Time: 65.35316872596741
+Current LR is: 1.2622432211486635e-05
+Current sigma_lr is: 1.5844489931029182
+updating iteration in 56 epoch Average training loss: 0.014455504150360341
+###############################################
+ test acc 93.900
+###############################################
+Time: 59.50296711921692
+Current LR is: 1.0729067379763639e-05
+Current sigma_lr is: 1.8640576389446097
+updating iteration in 57 epoch Average training loss: 0.012664973409949702
+###############################################
+ test acc 93.740
+###############################################
+Time: 63.29851722717285
+Current LR is: 1.0729067379763639e-05
+Current sigma_lr is: 1.8640576389446097
+updating iteration in 58 epoch Average training loss: 0.01150537749618146
+###############################################
+ test acc 93.470
+###############################################
+Time: 59.27019810676575
+Current LR is: 1.0729067379763639e-05
+Current sigma_lr is: 1.8640576389446097
+updating iteration in 59 epoch Average training loss: 0.012265686725044352
+###############################################
+ test acc 93.560
+###############################################
+Time: 61.104660749435425
+Current LR is: 9.119707272799093e-06
+Current sigma_lr is: 2.1930089869936586
+updating iteration in 60 epoch Average training loss: 0.012228700160509557
+###############################################
+ test acc 93.910
+###############################################
+Time: 64.9443907737732
+Current LR is: 9.119707272799093e-06
+Current sigma_lr is: 2.1930089869936586
+updating iteration in 61 epoch Average training loss: 0.010417749590145868
+###############################################
+ test acc 93.940
+###############################################
+Time: 63.146803855895996
+Current LR is: 9.119707272799093e-06
+Current sigma_lr is: 2.1930089869936586
+updating iteration in 62 epoch Average training loss: 0.009220512639842728
+###############################################
+ test acc 94.090
+###############################################
+Time: 57.85251760482788
+Current LR is: 9.119707272799093e-06
+Current sigma_lr is: 2.1930089869936586
+updating iteration in 63 epoch Average training loss: 0.007994957195398241
+###############################################
+ test acc 93.840
+###############################################
+Time: 61.98196601867676
+Current LR is: 9.119707272799093e-06
+Current sigma_lr is: 2.1930089869936586
+updating iteration in 64 epoch Average training loss: 0.008974698131898358
+###############################################
+ test acc 93.960
+###############################################
+Time: 59.629600286483765
+Current LR is: 9.119707272799093e-06
+Current sigma_lr is: 2.1930089869936586
+updating iteration in 65 epoch Average training loss: 0.008425433684573587
+###############################################
+ test acc 93.950
+###############################################
+Time: 60.87509107589722
+Current LR is: 9.119707272799093e-06
+Current sigma_lr is: 2.1930089869936586
+updating iteration in 66 epoch Average training loss: 0.008703342021857205
+###############################################
+ test acc 93.850
+###############################################
+Time: 55.4640588760376
+Current LR is: 9.119707272799093e-06
+Current sigma_lr is: 2.1930089869936586
+updating iteration in 67 epoch Average training loss: 0.009229226258417034
+###############################################
+ test acc 93.900
+###############################################
+Time: 60.278417348861694
+Current LR is: 9.119707272799093e-06
+Current sigma_lr is: 2.1930089869936586
+updating iteration in 68 epoch Average training loss: 0.009243784845703186
+###############################################
+ test acc 94.080
+###############################################
+Time: 62.60163354873657
+Current LR is: 9.119707272799093e-06
+Current sigma_lr is: 2.1930089869936586
+updating iteration in 69 epoch Average training loss: 0.007796794366769922
+###############################################
+ test acc 93.960
+###############################################
+Time: 60.167738914489746
+Current LR is: 7.75175118187923e-06
+Current sigma_lr is: 2.5800105729337157
+updating iteration in 70 epoch Average training loss: 0.007726261953312575
+###############################################
+ test acc 93.840
+###############################################
+Time: 60.9664089679718
+Current LR is: 7.75175118187923e-06
+Current sigma_lr is: 2.5800105729337157
+updating iteration in 71 epoch Average training loss: 0.006768950347329902
+###############################################
+ test acc 94.220
+###############################################
+Time: 58.118125438690186
+Current LR is: 7.75175118187923e-06
+Current sigma_lr is: 2.5800105729337157
+updating iteration in 72 epoch Average training loss: 0.006409970039672641
+###############################################
+ test acc 93.840
+###############################################
+Time: 61.11667823791504
+Current LR is: 7.75175118187923e-06
+Current sigma_lr is: 2.5800105729337157
+updating iteration in 73 epoch Average training loss: 0.006724943046267579
+###############################################
+ test acc 94.340
+###############################################
+Time: 62.86297607421875
+Current LR is: 7.75175118187923e-06
+Current sigma_lr is: 2.5800105729337157
+updating iteration in 74 epoch Average training loss: 0.006338961750229002
+###############################################
+ test acc 93.800
+###############################################
+Time: 58.80749440193176
+Current LR is: 7.75175118187923e-06
+Current sigma_lr is: 2.5800105729337157
+updating iteration in 75 epoch Average training loss: 0.006425551776296126
+###############################################
+ test acc 94.180
+###############################################
+Time: 59.97368025779724
+Current LR is: 7.75175118187923e-06
+Current sigma_lr is: 2.5800105729337157
+updating iteration in 76 epoch Average training loss: 0.006140990481900885
+###############################################
+ test acc 94.240
+###############################################
+Time: 64.2638008594513
+Current LR is: 7.75175118187923e-06
+Current sigma_lr is: 2.5800105729337157
+updating iteration in 77 epoch Average training loss: 0.005851897830980841
+###############################################
+ test acc 94.130
+###############################################
+Time: 60.81549263000488
+Current LR is: 7.75175118187923e-06
+Current sigma_lr is: 2.5800105729337157
+updating iteration in 78 epoch Average training loss: 0.005778986810836988
+###############################################
+ test acc 94.150
+###############################################
+Time: 62.33398985862732
+Current LR is: 7.75175118187923e-06
+Current sigma_lr is: 2.5800105729337157
+updating iteration in 79 epoch Average training loss: 0.006613744253848351
+###############################################
+ test acc 94.210
+###############################################
+Time: 61.50426650047302
+Current LR is: 6.588988504597345e-06
+Current sigma_lr is: 3.035306556392607
+updating iteration in 80 epoch Average training loss: 0.006172774630237615
+###############################################
+ test acc 94.270
+###############################################
+Time: 60.19662857055664
+Current LR is: 6.588988504597345e-06
+Current sigma_lr is: 3.035306556392607
+updating iteration in 81 epoch Average training loss: 0.006742669087128414
+###############################################
+ test acc 93.940
+###############################################
+Time: 59.482460260391235
+Current LR is: 6.588988504597345e-06
+Current sigma_lr is: 3.035306556392607
+updating iteration in 82 epoch Average training loss: 0.0054880224317895064
+###############################################
+ test acc 94.170
+###############################################
+Time: 60.51653480529785
+Current LR is: 6.588988504597345e-06
+Current sigma_lr is: 3.035306556392607
+updating iteration in 83 epoch Average training loss: 0.006069685084178642
+###############################################
+ test acc 94.200
+###############################################
+Time: 61.454490661621094
+Current LR is: 6.588988504597345e-06
+Current sigma_lr is: 3.035306556392607
+updating iteration in 84 epoch Average training loss: 0.006655811007139306
+###############################################
+ test acc 93.710
+###############################################
+Time: 60.628737688064575
+Current LR is: 6.588988504597345e-06
+Current sigma_lr is: 3.035306556392607
+updating iteration in 85 epoch Average training loss: 0.005975039449098952
+###############################################
+ test acc 94.130
+###############################################
+Time: 62.070457220077515
+Current LR is: 6.588988504597345e-06
+Current sigma_lr is: 3.035306556392607
+updating iteration in 86 epoch Average training loss: 0.006368888012427778
+###############################################
+ test acc 93.980
+###############################################
+Time: 57.34586763381958
+Current LR is: 6.588988504597345e-06
+Current sigma_lr is: 3.035306556392607
+updating iteration in 87 epoch Average training loss: 0.006706732680372846
+###############################################
+ test acc 93.910
+###############################################
+Time: 64.18932509422302
+Current LR is: 6.588988504597345e-06
+Current sigma_lr is: 3.035306556392607
+updating iteration in 88 epoch Average training loss: 0.007171381243287868
+###############################################
+ test acc 94.250
+###############################################
+Time: 58.601232290267944
+Current LR is: 6.588988504597345e-06
+Current sigma_lr is: 3.035306556392607
+updating iteration in 89 epoch Average training loss: 0.00607105486409046
+###############################################
+ test acc 94.370
+###############################################
+Time: 61.393004417419434
+Current LR is: 5.600640228907743e-06
+Current sigma_lr is: 3.5709488898736548
+updating iteration in 90 epoch Average training loss: 0.0059268438098327115
+###############################################
+ test acc 93.890
+###############################################
+Time: 61.06723237037659
+Current LR is: 5.600640228907743e-06
+Current sigma_lr is: 3.5709488898736548
+updating iteration in 91 epoch Average training loss: 0.00494702017415403
+###############################################
+ test acc 94.350
+###############################################
+Time: 58.83013582229614
+Current LR is: 5.600640228907743e-06
+Current sigma_lr is: 3.5709488898736548
+updating iteration in 92 epoch Average training loss: 0.0041883762119211245
+###############################################
+ test acc 94.460
+###############################################
+Time: 60.32069206237793
+Current LR is: 5.600640228907743e-06
+Current sigma_lr is: 3.5709488898736548
+updating iteration in 93 epoch Average training loss: 0.003490975571813623
+###############################################
+ test acc 94.230
+###############################################
+Time: 59.69653367996216
+Current LR is: 5.600640228907743e-06
+Current sigma_lr is: 3.5709488898736548
+updating iteration in 94 epoch Average training loss: 0.0055658145613233035
+###############################################
+ test acc 94.210
+###############################################
+Time: 60.35822343826294
+Current LR is: 5.600640228907743e-06
+Current sigma_lr is: 3.5709488898736548
+updating iteration in 95 epoch Average training loss: 0.004382969607892388
+###############################################
+ test acc 94.410
+###############################################
+Time: 58.37578296661377
+Current LR is: 5.600640228907743e-06
+Current sigma_lr is: 3.5709488898736548
+updating iteration in 96 epoch Average training loss: 0.004611745056490806
+###############################################
+ test acc 94.300
+###############################################
+Time: 60.31028938293457
+Current LR is: 5.600640228907743e-06
+Current sigma_lr is: 3.5709488898736548
+updating iteration in 97 epoch Average training loss: 0.005368047533665912
+###############################################
+ test acc 94.300
+###############################################
+Time: 58.469258546829224
+Current LR is: 5.600640228907743e-06
+Current sigma_lr is: 3.5709488898736548
+updating iteration in 98 epoch Average training loss: 0.004174451945549468
+###############################################
+ test acc 94.470
+###############################################
+Time: 60.906882524490356
+Current LR is: 5.600640228907743e-06
+Current sigma_lr is: 3.5709488898736548
+updating iteration in 99 epoch Average training loss: 0.004606201238130568
+###############################################
+ test acc 94.190
+###############################################
+Time: 61.29351592063904
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 100 epoch Average training loss: 0.0032854291915884364
+###############################################
+ test acc 94.580
+###############################################
+Time: 59.09177255630493
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 101 epoch Average training loss: 0.0017783091979000553
+###############################################
+ test acc 94.580
+###############################################
+Time: 59.8248610496521
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 102 epoch Average training loss: 0.001920119241698153
+###############################################
+ test acc 94.770
+###############################################
+Time: 58.187344551086426
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 103 epoch Average training loss: 0.0016208610941236849
+###############################################
+ test acc 94.760
+###############################################
+Time: 60.71865916252136
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 104 epoch Average training loss: 0.0010923213019442437
+###############################################
+ test acc 94.550
+###############################################
+Time: 58.40933847427368
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 105 epoch Average training loss: 0.0012779512477282481
+###############################################
+ test acc 94.630
+###############################################
+Time: 59.84702968597412
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 106 epoch Average training loss: 0.0017093607753120713
+###############################################
+ test acc 94.640
+###############################################
+Time: 59.68778657913208
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 107 epoch Average training loss: 0.0013013911242965419
+###############################################
+ test acc 94.590
+###############################################
+Time: 57.86609601974487
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 108 epoch Average training loss: 0.0012000277236097355
+###############################################
+ test acc 94.610
+###############################################
+Time: 60.71048450469971
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 109 epoch Average training loss: 0.0012002355381907743
+###############################################
+ test acc 94.690
+###############################################
+Time: 58.964720487594604
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 110 epoch Average training loss: 0.0011246092689416493
+###############################################
+ test acc 94.790
+###############################################
+Time: 61.96409869194031
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 111 epoch Average training loss: 0.0012997822176430418
+###############################################
+ test acc 94.690
+###############################################
+Time: 60.49671244621277
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 112 epoch Average training loss: 0.0010785614666472105
+###############################################
+ test acc 94.850
+###############################################
+Time: 61.817139863967896
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 113 epoch Average training loss: 0.001116591325934564
+###############################################
+ test acc 94.670
+###############################################
+Time: 57.28631091117859
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 114 epoch Average training loss: 0.001056697512903647
+###############################################
+ test acc 94.740
+###############################################
+Time: 60.894662380218506
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 115 epoch Average training loss: 0.0013924421572496927
+###############################################
+ test acc 94.740
+###############################################
+Time: 60.58627510070801
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 116 epoch Average training loss: 0.0009533606641291342
+###############################################
+ test acc 94.730
+###############################################
+Time: 62.03903770446777
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 117 epoch Average training loss: 0.0008807313547378163
+###############################################
+ test acc 94.690
+###############################################
+Time: 58.00991702079773
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 118 epoch Average training loss: 0.0006753369624320235
+###############################################
+ test acc 94.920
+###############################################
+Time: 60.343061208724976
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 119 epoch Average training loss: 0.0007711773764166447
+###############################################
+ test acc 94.800
+###############################################
+Time: 58.07813286781311
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 120 epoch Average training loss: 0.000723359607865936
+###############################################
+ test acc 94.840
+###############################################
+Time: 60.63402271270752
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 121 epoch Average training loss: 0.0008473617311354763
+###############################################
+ test acc 94.680
+###############################################
+Time: 63.25485038757324
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 122 epoch Average training loss: 0.0009140864656846857
+###############################################
+ test acc 94.500
+###############################################
+Time: 61.750123023986816
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 123 epoch Average training loss: 0.0008175578232653269
+###############################################
+ test acc 94.780
+###############################################
+Time: 60.43607187271118
+Current LR is: 2.8003201144538716e-06
+Current sigma_lr is: 7.1418977797473095
+updating iteration in 124 epoch Average training loss: 0.0006760860065554871
+###############################################
+ test acc 94.670
+###############################################
+Time: 59.63858914375305
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 125 epoch Average training loss: 0.0006498891503600291
+###############################################
+ test acc 94.880
+###############################################
+Time: 61.350708961486816
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 126 epoch Average training loss: 0.0008410293582570408
+###############################################
+ test acc 94.990
+###############################################
+Time: 62.20254564285278
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 127 epoch Average training loss: 0.0004700871448255461
+###############################################
+ test acc 94.940
+###############################################
+Time: 58.70061898231506
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 128 epoch Average training loss: 0.0005894464289688602
+###############################################
+ test acc 94.940
+###############################################
+Time: 60.31890416145325
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 129 epoch Average training loss: 0.0007331779497242381
+###############################################
+ test acc 94.980
+###############################################
+Time: 60.968997955322266
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 130 epoch Average training loss: 0.00047856859545742
+###############################################
+ test acc 94.950
+###############################################
+Time: 60.41179943084717
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 131 epoch Average training loss: 0.0005688973758514389
+###############################################
+ test acc 94.880
+###############################################
+Time: 62.24117875099182
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 132 epoch Average training loss: 0.00035069543460137896
+###############################################
+ test acc 94.940
+###############################################
+Time: 61.22619867324829
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 133 epoch Average training loss: 0.00044070741464222705
+###############################################
+ test acc 94.980
+###############################################
+Time: 58.10488438606262
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 134 epoch Average training loss: 0.0004508362311017242
+###############################################
+ test acc 94.940
+###############################################
+Time: 57.83656024932861
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 135 epoch Average training loss: 0.0005051183761935436
+###############################################
+ test acc 94.970
+###############################################
+Time: 61.20711922645569
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 136 epoch Average training loss: 0.0005947793895191822
+###############################################
+ test acc 94.960
+###############################################
+Time: 58.27721834182739
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 137 epoch Average training loss: 0.0004988105401743272
+###############################################
+ test acc 94.920
+###############################################
+Time: 60.087345600128174
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 138 epoch Average training loss: 0.0005228235957153683
+###############################################
+ test acc 94.930
+###############################################
+Time: 60.39229607582092
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 139 epoch Average training loss: 0.0003166485068514584
+###############################################
+ test acc 94.800
+###############################################
+Time: 59.06264686584473
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 140 epoch Average training loss: 0.0004816044194305268
+###############################################
+ test acc 94.880
+###############################################
+Time: 60.39573669433594
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 141 epoch Average training loss: 0.0005904720091072758
+###############################################
+ test acc 94.970
+###############################################
+Time: 57.798195600509644
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 142 epoch Average training loss: 0.0003496082548819751
+###############################################
+ test acc 94.950
+###############################################
+Time: 58.93995952606201
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 143 epoch Average training loss: 0.0003227203036038567
+###############################################
+ test acc 95.050
+###############################################
+Time: 59.169312715530396
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 144 epoch Average training loss: 0.00029105094605230865
+###############################################
+ test acc 94.900
+###############################################
+Time: 56.92797255516052
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 145 epoch Average training loss: 0.00028367010697890444
+###############################################
+ test acc 94.860
+###############################################
+Time: 54.71530270576477
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 146 epoch Average training loss: 0.00022457659071211156
+###############################################
+ test acc 94.980
+###############################################
+Time: 56.779202461242676
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 147 epoch Average training loss: 0.00026827949608986554
+###############################################
+ test acc 95.080
+###############################################
+Time: 56.66246175765991
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 148 epoch Average training loss: 0.000276752565471613
+###############################################
+ test acc 94.920
+###############################################
+Time: 55.950430154800415
+Current LR is: 1.4001600572269358e-06
+Current sigma_lr is: 14.283795559494619
+updating iteration in 149 epoch Average training loss: 0.00030558131848208535
+###############################################
+ test acc 94.970
+###############################################
+Time: 57.663487672805786
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 150 epoch Average training loss: 0.0003416031620676701
+###############################################
+ test acc 95.060
+###############################################
+Time: 59.01981806755066
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 151 epoch Average training loss: 0.0002230851189995966
+###############################################
+ test acc 94.840
+###############################################
+Time: 57.70341157913208
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 152 epoch Average training loss: 0.0003142482218836356
+###############################################
+ test acc 94.830
+###############################################
+Time: 62.62907814979553
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 153 epoch Average training loss: 0.00026047933712023156
+###############################################
+ test acc 94.900
+###############################################
+Time: 60.29282474517822
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 154 epoch Average training loss: 0.0002825944696497826
+###############################################
+ test acc 94.920
+###############################################
+Time: 55.56237316131592
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 155 epoch Average training loss: 0.0003793238483981929
+###############################################
+ test acc 94.990
+###############################################
+Time: 59.11818218231201
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 156 epoch Average training loss: 0.0002602981216046675
+###############################################
+ test acc 95.000
+###############################################
+Time: 59.733914613723755
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 157 epoch Average training loss: 0.00019039329144583152
+###############################################
+ test acc 94.980
+###############################################
+Time: 59.72437500953674
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 158 epoch Average training loss: 0.00021614821298469934
+###############################################
+ test acc 94.920
+###############################################
+Time: 57.67727971076965
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 159 epoch Average training loss: 0.00032407250174387313
+###############################################
+ test acc 94.930
+###############################################
+Time: 60.201313495635986
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 160 epoch Average training loss: 0.00020772944529029065
+###############################################
+ test acc 94.980
+###############################################
+Time: 59.31835746765137
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 161 epoch Average training loss: 0.0003131395486638598
+###############################################
+ test acc 95.000
+###############################################
+Time: 57.9409396648407
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 162 epoch Average training loss: 0.0002108240608705015
+###############################################
+ test acc 94.910
+###############################################
+Time: 62.207279443740845
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 163 epoch Average training loss: 0.00020134698932439216
+###############################################
+ test acc 94.950
+###############################################
+Time: 58.76131868362427
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 164 epoch Average training loss: 0.00016339420385799627
+###############################################
+ test acc 94.990
+###############################################
+Time: 56.25862956047058
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 165 epoch Average training loss: 0.00015484809779120224
+###############################################
+ test acc 95.010
+###############################################
+Time: 60.790087938308716
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 166 epoch Average training loss: 0.00022043731933811094
+###############################################
+ test acc 95.090
+###############################################
+Time: 59.22825336456299
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 167 epoch Average training loss: 0.00021914920114253703
+###############################################
+ test acc 95.030
+###############################################
+Time: 58.00074744224548
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 168 epoch Average training loss: 0.000213799673097163
+###############################################
+ test acc 94.910
+###############################################
+Time: 60.696179151535034
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 169 epoch Average training loss: 0.00030281202680561997
+###############################################
+ test acc 95.020
+###############################################
+Time: 57.050965547561646
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 170 epoch Average training loss: 0.0001877816571046689
+###############################################
+ test acc 95.060
+###############################################
+Time: 58.92955946922302
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 171 epoch Average training loss: 0.0002301128511266017
+###############################################
+ test acc 94.990
+###############################################
+Time: 60.68439745903015
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 172 epoch Average training loss: 0.00029605879626338984
+###############################################
+ test acc 94.970
+###############################################
+Time: 57.2042601108551
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 173 epoch Average training loss: 0.0002580046365437157
+###############################################
+ test acc 94.960
+###############################################
+Time: 59.149540424346924
+Current LR is: 7.000800286134679e-07
+Current sigma_lr is: 28.567591118989238
+updating iteration in 174 epoch Average training loss: 0.0002174745862718395
+###############################################
+ test acc 94.980
+###############################################
+Time: 57.91457962989807
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 175 epoch Average training loss: 0.00026603653555713394
+###############################################
+ test acc 94.980
+###############################################
+Time: 59.96640944480896
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 176 epoch Average training loss: 0.00019668050319606475
+###############################################
+ test acc 94.970
+###############################################
+Time: 59.36850047111511
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 177 epoch Average training loss: 0.00021788121002022719
+###############################################
+ test acc 94.880
+###############################################
+Time: 58.6511607170105
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 178 epoch Average training loss: 0.0002142700138931751
+###############################################
+ test acc 94.960
+###############################################
+Time: 58.00827240943909
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 179 epoch Average training loss: 0.0002007766438413911
+###############################################
+ test acc 94.900
+###############################################
+Time: 61.61084008216858
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 180 epoch Average training loss: 0.00036820680595447784
+###############################################
+ test acc 94.850
+###############################################
+Time: 59.37379479408264
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 181 epoch Average training loss: 0.00024447426845448407
+###############################################
+ test acc 94.880
+###############################################
+Time: 56.649715423583984
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 182 epoch Average training loss: 0.00019579298206626658
+###############################################
+ test acc 94.920
+###############################################
+Time: 60.08248853683472
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 183 epoch Average training loss: 0.00024187069197193368
+###############################################
+ test acc 94.840
+###############################################
+Time: 57.884456396102905
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 184 epoch Average training loss: 0.00020011941315980548
+###############################################
+ test acc 94.920
+###############################################
+Time: 57.08514952659607
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 185 epoch Average training loss: 0.00024999850381555284
+###############################################
+ test acc 94.890
+###############################################
+Time: 59.063698053359985
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 186 epoch Average training loss: 0.00019414862371475516
+###############################################
+ test acc 94.910
+###############################################
+Time: 58.4162495136261
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 187 epoch Average training loss: 0.0002394464983533517
+###############################################
+ test acc 94.920
+###############################################
+Time: 56.15001678466797
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 188 epoch Average training loss: 0.00019691110119421395
+###############################################
+ test acc 95.020
+###############################################
+Time: 60.485052824020386
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 189 epoch Average training loss: 0.00024161968377144693
+###############################################
+ test acc 94.880
+###############################################
+Time: 58.85071635246277
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 190 epoch Average training loss: 0.0002552652012327552
+###############################################
+ test acc 94.990
+###############################################
+Time: 59.64091420173645
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 191 epoch Average training loss: 0.00031005346751704875
+###############################################
+ test acc 94.910
+###############################################
+Time: 61.93233633041382
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 192 epoch Average training loss: 0.00023096157038100936
+###############################################
+ test acc 94.860
+###############################################
+Time: 59.296191930770874
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 193 epoch Average training loss: 0.0002281009631208799
+###############################################
+ test acc 94.900
+###############################################
+Time: 57.81951451301575
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 194 epoch Average training loss: 0.00017908557336316467
+###############################################
+ test acc 94.950
+###############################################
+Time: 55.7950439453125
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 195 epoch Average training loss: 0.00022968828329416645
+###############################################
+ test acc 94.990
+###############################################
+Time: 59.23232674598694
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 196 epoch Average training loss: 0.0002031401912233687
+###############################################
+ test acc 94.890
+###############################################
+Time: 58.710179567337036
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 197 epoch Average training loss: 0.0001833351105703172
+###############################################
+ test acc 94.830
+###############################################
+Time: 57.595215797424316
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 198 epoch Average training loss: 0.00014513437557307833
+###############################################
+ test acc 95.010
+###############################################
+Time: 60.31706213951111
+Current LR is: 3.5004001430673395e-07
+Current sigma_lr is: 57.135182237978476
+updating iteration in 199 epoch Average training loss: 0.0001825417687802151
+###############################################
+ test acc 94.910
+###############################################
+Time: 59.839913845062256
+Current LR is: 1.7502000715336698e-07
+Current sigma_lr is: 114.27036447595695
+updating iteration in 200 epoch Average training loss: 0.00016953664205391624
+###############################################
+ test acc 94.900
+###############################################
+Time: 58.37059545516968
+Current LR is: 1.7502000715336698e-07
+Current sigma_lr is: 114.27036447595695
+updating iteration in 201 epoch Average training loss: 0.00016192641498859387
+###############################################
+ test acc 94.940
+###############################################
+Time: 57.60213112831116
+Current LR is: 1.7502000715336698e-07
+Current sigma_lr is: 114.27036447595695
+updating iteration in 202 epoch Average training loss: 0.00022580294897606482
+###############################################
+ test acc 94.990
+###############################################
+Time: 60.89003372192383
+Current LR is: 1.7502000715336698e-07
+Current sigma_lr is: 114.27036447595695
+updating iteration in 203 epoch Average training loss: 0.00020954313494318282
+###############################################
+ test acc 94.870
+###############################################
+Time: 58.492295265197754
+Current LR is: 1.7502000715336698e-07
+Current sigma_lr is: 114.27036447595695
+updating iteration in 204 epoch Average training loss: 0.00013788888271006224
+###############################################
+ test acc 95.060
+###############################################
+Time: 57.898881673812866
+The best accuracy is: 95.09
