@@ -9,5 +9,5 @@ python lower_loss_mPiAM_training_procedure.py --model resnet --optim adamw --eps
 ```
 Densenet:
 ```bash
-python lambda_densenet.py --model densenet --baseline_acc 94.81 --optim adamw --eps 1e-8 --sigma_lr 0.08 --rho_lr 2e3 --beta1 0.9 --beta2 0.999 --momentum 0.9 --batchsize 256  --total_epoch 201 --decay_epoch 50  --weight_decay 2e-5 --lr-gamma 0.25 --beta_rmsprop 0.999 --l2_lambda 1e-5
+python lambda_densenet.py --model densenet --baseline_acc 94.81 --optim adam --eps 1e-8 --sigma_lr 0.8 --rho_lr 2e3 --beta1 0.9 --beta2 0.999 --momentum 0.9 --batchsize 256  --total_epoch 201 --decay_epoch 50  --weight_decay 5e-4 --lr-gamma 0.25 --beta_rmsprop 0.999 --l2_lambda 5e-5
 ```
