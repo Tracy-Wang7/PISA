@@ -9,7 +9,7 @@ The set up for other tasks will be sepcified in their corresponding folders.
 All LLM experiments are conducted on four NVIDIA H100-80GB GPUs, while all other experiments run on a single such GPU.
 
 ---
-## Section in the paper
+## Sections in the paper
 
 **Data Heterogenerity** corresponds to Section 5.2
 
