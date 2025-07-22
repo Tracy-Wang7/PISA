@@ -1,0 +1,39 @@
+# these make the total batch size be ~0.5M
+# 6 batch size * 1024 block size * 10 gradaccum * 8 GPUs = 491,520
+batch_size = 16
+block_size = 1024
+gradient_accumulation_steps = 1
+
+n_layer = 24
+n_head = 16
+n_embd = 1024
+dropout = 0.0 # for pretraining 0 is good, for finetuning try 0.1+
+bias = False
+
+max_iters = 50000 # we cannot effort to run the rest 50000 steps
+lr_decay_iters = 100000
+
+# eval stuff
+eval_interval = 100
+eval_iters = 200 # how many samples used for calulating validation loss
+log_interval = 10
+ckpt_interval = 1000
+
+# optimizer
+algorithm = 'sisa'
+learning_rate = 0.02 # max learning rate
+embed_learning_rate = 0.0036
+muon_learning_rate = 0.02
+weight_decay = 1e-1
+beta1 = 0.9
+beta2 = 0.95
+epsilon = 1e-6 # for 1e-8, Adam will encounter loss spike, but Adam-mini will not.
+grad_clip = 1.0 # clip gradients at this value, or disable if == 0.0
+# learning rate decay settings
+decay_lr = True # whether to decay the learning rate
+min_lr = 6e-5 
+
+
+comment = 'gpt2_medium_sisa' 
+save_dir = 'log_gpt2/'+comment
+out_dir = 'out-gpt2/' +comment # save ckpt
