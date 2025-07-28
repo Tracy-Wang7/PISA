@@ -11,16 +11,16 @@ All LLM experiments are conducted on four NVIDIA H100-80GB GPUs, while all other
 ---
 ## Sections in the paper
 
-✅ **Data Heterogenerity** corresponds to Section 5.2 **Data Heterogeneity**
+✅ **Data Heterogenerity** corresponds to Section **Data Heterogeneity**
 
-✅ **Vision Model** corresponds to Section 5.3 **Classification by VMs**
+✅ **Vision Model** corresponds to Section **Classification by VMs**
 
-✅ **GPT2** corresponds to Section 5.4 **Classification by VMs**
+✅ **GPT2** corresponds to Appendix **Training LLMs**
 
-✅ **GPT2_new_version** corresponds to Section 5.5 **Classification by VMs**
+✅ **GPT2_new_version** corresponds to Section **Training LLMs**
 
-✅ **RL** corresponds to Section 5.6 **Games reward by RLMs**
+✅ **RL** corresponds to Appendix **Games reward by RLMs**
 
-✅ **WGAN** corresponds to Section 5.6 **Generation tasks by GANs**
+✅ **WGAN** corresponds to Section **Generation tasks by GANs**
 
-✅ **LSTM** corresponds to Section 5.6 **Text prediction with RNNs**
+✅ **LSTM** corresponds to Appendix **Text prediction with RNNs**
