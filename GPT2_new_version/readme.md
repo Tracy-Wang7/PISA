@@ -2,7 +2,7 @@
 ⚡ 
 The updated version of SISA now support parallel computing, and allow efficient communication between devices
 
-To run the current records for all GPT2 experiments in Section 5.4, run the following commands for the set up:
+To run the current records for all GPT2 experiments in Section **Training LLMs**, run the following commands for the set up:
 
 ```bash
 conda env create -f gpt2.yml
