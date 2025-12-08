@@ -20,6 +20,9 @@ The set up for other tasks will be sepcified in their corresponding folders.
 All LLM experiments are conducted on four NVIDIA H100-80GB GPUs, while all other experiments run on a single such GPU.
 
 ---
+## Updates
+A standalone optimizer module/package of PISA will be released soon.
+
 ## Sections in the paper
 
 ✅ **Data Heterogenerity** corresponds to Section **Data Heterogeneity**
