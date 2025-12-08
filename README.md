@@ -9,6 +9,7 @@ Our main experiments and analysis are conducted on the following environment:
 - Pytorch (2.4.0)
 - Transformers (4.45.1)
 - NumPy (1.24.3)
+
 To run the current records for Vision Model, WGAN, LSTM and Data Heterogeneity, run the following commands for the set up:
 
 ```bash
