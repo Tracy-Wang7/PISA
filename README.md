@@ -1,4 +1,7 @@
-# SISA
+# Preconditioned Inexact Stochastic ADMM for Deep Models
+---
+This is the code of paper [Preconditioned Inexact Stochastic ADMM for Deep Models](https://arxiv.org/abs/2502.10784)
+
 To run the current records for Vision Model, WGAN, LSTM and Data Heterogeneity, run the following commands for the set up:
 
 ```bash
