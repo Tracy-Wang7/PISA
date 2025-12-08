@@ -2,6 +2,13 @@
 ---
 This is the code of paper [Preconditioned Inexact Stochastic ADMM for Deep Models](https://arxiv.org/abs/2502.10784)
 
+## Requirements
+Our main experiments and analysis are conducted on the following environment:
+- CUDA (12.7)
+- cuDNN (9.1.0)
+- Pytorch (2.4.0)
+- Transformers (4.45.1)
+- NumPy (1.24.3)
 To run the current records for Vision Model, WGAN, LSTM and Data Heterogeneity, run the following commands for the set up:
 
 ```bash
