@@ -33,8 +33,6 @@ A standalone optimizer module/package of PISA will be released soon.
 
 ✅ **GPT2_new_version** corresponds to Section **Training LLMs**
 
-✅ **RL** corresponds to Appendix **Games reward by RLMs**
-
 ✅ **WGAN** corresponds to Section **Generation tasks by GANs**
 
 ✅ **LSTM** corresponds to Appendix **Text prediction with RNNs**
